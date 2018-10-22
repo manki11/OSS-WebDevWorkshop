@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>forms</title>
+    </head>
+    
+    <body>
+        <form>
+            <label for="address">Address:&nbsp;&nbsp;</label>
+            <input type="text" name="address" id="address" placeholder="Address" maxlength="100" size=30px>
+            
+            <br/>
+            
+            <label for="City">City: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="City" id="City" placeholder="City" maxlength="100" size=30px>
+            
+            <br/>
+        
+            <label for="Postcode">Postcode:&nbsp;</label>
+            <input type="text" name="Postcode" id="Postcode" placeholder="Postcode" maxlength="100" size=30px>
+            
+            <br/>
+            
+            <p>Choose shipping method:</p>
+            <select name="shipping">
+                <option value="One day">One day shipping</option>
+                <option value="Two day">Two day shipping</option>
+                <option value="Free Shipping">Free shipping shipping</option>
+            </select>
+        
+            <br/>
+            
+            <p>Choose payment method:</p>
+            <label>Credit Card:<input type="radio" name="payment" value="Credit card"></label>
+            <label>PayTM:<input type="radio" name="PayTM" value="PayTM"></label>
+            <label>COD<input type="radio" name="COD" value="COD"></label>
+            
+            <br/>
+            <br/>
+            <br/>
+            
+            <label for="Comments">Comments</label>
+            <br/>
+            <textarea name="Comments" rows="4" cols="40" id="Comments"></textarea>
+            
+            <br/>
+            <br/>
+            <label>Email updates:<input type="checkbox" name="Email updates" checked="true"></label>
+            <label>SMS updates:<input type="checkbox" name="SMS updates"></label>
+            
+            <br/>
+            <br/>
+            
+            <input type="submit" value="submit">
+            
+        </form>              
+    </body>
+
+
+</html>
